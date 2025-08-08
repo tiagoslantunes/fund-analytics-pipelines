@@ -1,4 +1,6 @@
 pandas>=2.0
-numpy>=1.24
+numpy>=1.25
 openpyxl>=3.1
-statsmodels>=0.13  # only needed if you use --arima-funds
+statsmodels>=0.14 ; extra == "arima"
+
+
